@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CleanTech Utrecht — Hightech Schoonmaakbedrijf</title>
+  <meta name="description" content="CleanTech Utrecht: hightech schoonmaakbedrijf met IoT-monitoring, robotreiniging en duurzame methoden. De toekomst van schoonmaken.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/lucide-static@latest/font/lucide.css">
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">Clean<span>Tech</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">Over Ons</a></li>
+        <li><a href="#services">Diensten</a></li>
+        <li><a href="#ba">Voor & Na</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"><img src="images/hero.jpg" alt="CleanTech schoonmaak Utrecht"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="badge">// Trusted by 500+ schoonmaakbedrijven</span>
+      <h1>Schoonmaken met <span>slimme technologie.</span></h1>
+      <p>CleanTech Utrecht zet IoT-sensoren, robotreingers en data-analyse in voor een meetbaar schoner resultaat. Minder middelen, meer impact.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Gratis Analyse</a>
+        <a href="#services" class="btn btn-outline">Onze Diensten</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item"><h3>8+</h3><p>Jaar innovatie</p></div>
+        <div class="stat-item"><h3>150+</h3><p>Smart-contracts</p></div>
+        <div class="stat-item"><h3>4.9</h3><p>Google score</p></div>
+      </div>
+    </div>
+  </section>
+  <div class="ticker" style="background:var(--color-accent,#f5a623);padding:12px 0;overflow:hidden;">
+    <div style="display:flex;gap:48px;animation:tickerScroll 20s linear infinite;white-space:nowrap;">
+      <span><iconify-icon icon="lucide:sparkles"></iconify-icon> Kantoor</span><span><iconify-icon icon="lucide:home"></iconify-icon> Particulier</span><span><iconify-icon icon="lucide:maximize"></iconify-icon> Glazenwassen</span><span><iconify-icon icon="lucide:layers"></iconify-icon> Vloeren</span><span><iconify-icon icon="lucide:hard-hat"></iconify-icon> Bouwschoonmaak</span><span><iconify-icon icon="lucide:factory"></iconify-icon> Industrieel</span><span><iconify-icon icon="lucide:sparkles"></iconify-icon> Kantoor</span><span><iconify-icon icon="lucide:home"></iconify-icon> Particulier</span><span><iconify-icon icon="lucide:maximize"></iconify-icon> Glazenwassen</span><span><iconify-icon icon="lucide:layers"></iconify-icon> Vloeren</span><span><iconify-icon icon="lucide:hard-hat"></iconify-icon> Bouwschoonmaak</span><span><iconify-icon icon="lucide:factory"></iconify-icon> Industrieel</span>
+    </div>
+  </div>
+  <style>@keyframes tickerScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}</style>
+  <style>.ticker span{display:inline-flex;align-items:center;gap:8px;font-size:0.85rem;font-weight:700;color:var(--color-bg,#0a0a0f);text-transform:uppercase;letter-spacing:0.05em;}</style>
+
+
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-image"><img src="images/about.jpg" alt="Over CleanTech"></div>
+      <div class="about-text">
+        <span class="badge">// Over ons</span>
+        <h2>Data-driven schoonmaken voor de moderne organisatie</h2>
+        <p>Wij plaatsen sensoren die vervuiling meten, plannen schoonmaak op basis van data en rapporteren realtime. Geen onnodige rondes, wel altijd schoon.</p>
+        <ul class="about-features">
+          <li><i class="lucide-check"></i> IoT-vervuilingssensoren</li>
+          <li><i class="lucide-check"></i> Robotreiniging integratie</li>
+          <li><i class="lucide-check"></i> Realtime dashboard</li>
+          <li><i class="lucide-check"></i> CO2-neutrale dienstverlening</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Vraag een Demo Aan</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-header"><span class="badge">// Diensten</span><h2>Onze diensten</h2><p>Smart cleaning voor elk type ruimte.</p></div>
+      <div class="services-grid">
+        <div class="service-card"><div class="icon"><i class="lucide-sparkles"></i></div><h3>Kantoorschoonmaak</h3><p>Sensor-gestuurde schoonmaak die alleen reinigt waar het nodig is. Tot 30% minder middelen.</p></div>
+        <div class="service-card"><div class="icon"><i class="lucide-home"></i></div><h3>Particulier</h3><p>Premium huishoudelijke schoonmaak met ecologische producten en kwaliteitsgarantie.</p></div>
+        <div class="service-card"><div class="icon"><i class="lucide-maximize"></i></div><h3>Glazenwassen</h3><p>Osmose-water systemen en drone-inspectie voor hoogbouw. Streepvrij tot 50 verdiepingen.</p></div>
+        <div class="service-card"><div class="icon"><i class="lucide-layers"></i></div><h3>Vloeronderhoud</h3><p>Robotschrobmachines voor grote oppervlaktes. Consistent resultaat, 24/7 inzetbaar.</p></div>
+        <div class="service-card"><div class="icon"><i class="lucide-hard-hat"></i></div><h3>Bouwschoonmaak</h3><p>Snelle opleverschoonmaak met industriele apparatuur. Meetbaar stofvrij.</p></div>
+        <div class="service-card"><div class="icon"><i class="lucide-factory"></i></div><h3>Industrieel</h3><p>Cleanroom-reiniging, voedselveilige schoonmaak en ATEX-zones. Gecertificeerd.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ba" class="ba-section">
+    <div class="container">
+      <div class="section-header"><span class="badge">// Voor & Na</span><h2>Meetbaar resultaat</h2><p>Sleep de slider om het verschil te zien.</p></div>
+      <div class="ba-slider" id="ba-slider">
+        <img src="images/ba-before.jpg" alt="Voor reiniging">
+        <div class="ba-after"><img src="images/ba-after.jpg" alt="Na reiniging"></div>
+        <div class="ba-handle"></div>
+        <span class="ba-label ba-label-before">Before</span>
+        <span class="ba-label ba-label-after">After</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="section-header"><span class="badge">// Cases</span><h2>Recente projecten</h2></div>
+      <div class="projects-grid">
+        <div class="project-card"><img src="images/project1.jpg" alt="Smart office"><div class="overlay"><h3>Smart Office Jaarbeurs</h3><p>IoT-sensoren in 200 ruimtes, 35% reductie schoonmaakuren.</p></div></div>
+        <div class="project-card"><img src="images/project2.jpg" alt="Ziekenhuis"><div class="overlay"><h3>Ziekenhuis Reiniging</h3><p>Cleanroom-niveau schoonmaak op 3 verdiepingen OK-complex.</p></div></div>
+        <div class="project-card"><img src="images/detail.jpg" alt="Robot"><div class="overlay"><h3>Robot Floor Cleaning</h3><p>Autonome schrobrobots in winkelcentrum, nachtelijke rondes.</p></div></div>
+        <div class="project-card"><img src="images/craft.jpg" alt="Drone"><div class="overlay"><h3>Drone Gevelinspectie</h3><p>Gevel geanalyseerd met drone, gereinigd met osmose-water.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="carousel-section">
+    <div class="section-header"><span class="badge">// Portfolio</span><h2>In beeld</h2></div>
+    <div class="carousel-track" id="carousel">
+      <img src="images/hero.jpg" alt="1"><img src="images/about.jpg" alt="2"><img src="images/craft.jpg" alt="3"><img src="images/detail.jpg" alt="4"><img src="images/kitchen.jpg" alt="5"><img src="images/carousel.jpg" alt="6"><img src="images/hero.jpg" alt="7"><img src="images/about.jpg" alt="8"><img src="images/craft.jpg" alt="9"><img src="images/detail.jpg" alt="10">
+    </div>
+  </section>
+
+  <section id="reviews">
+    <div class="container">
+      <div class="section-header"><span class="badge">// Reviews</span><h2>Klanten over CleanTech</h2></div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Het dashboard is fantastisch. We zien exact wanneer welke ruimte gereinigd is en wat het resultaat was."</p><div class="author"><div class="author-avatar">PV</div><div class="author-info"><span class="name">Paul Vermeulen</span><span class="role">Facility Director</span></div></div></div>
+        <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Sinds de sensoren besparen we 30% op schoonmaakkosten en is het resultaat beter dan ooit. Win-win."</p><div class="author"><div class="author-avatar">IB</div><div class="author-info"><span class="name">Irene Bakker</span><span class="role">Operations Manager</span></div></div></div>
+        <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"De robotschrobber draait elke nacht en 's ochtends is de hal onberispelijk. Technologie op z'n best."</p><div class="author"><div class="author-avatar">KZ</div><div class="author-info"><span class="name">Kees Zwart</span><span class="role">Winkelmanager</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="contact">
+    <div class="cta-bg"><img src="images/cta-bg.jpg" alt="Contact CleanTech"></div>
+    <div class="cta-overlay"></div>
+    <div class="cta-content">
+      <h2>Klaar voor smart cleaning?</h2>
+      <p>Vraag een gratis analyse aan. Wij laten zien hoeveel u kunt besparen met onze technologie.</p>
+      <a href="tel:+31300000000" class="btn btn-primary">Bel: 030-0000000</a>
+    </div>
+  </section>
+
+  <section class="team-section">
+    <div class="container">
+      <div class="section-header"><span class="badge">// Team</span><h2>De engineers achter CleanTech</h2></div>
+      <div class="team-image"><img src="images/team.jpg" alt="Team CleanTech"></div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="container">
+      <div class="section-header"><span class="badge">// FAQ</span><h2>Veelgestelde vragen</h2></div>
+      <div class="faq-list">
+        <div class="faq-item"><button class="faq-question">Hoe werken de IoT-sensoren? <i class="lucide-plus"></i></button><div class="faq-answer"><p>Draadloze sensoren meten CO2, vochtigheid en beweging. Op basis van deze data bepaalt ons systeem wanneer schoonmaak nodig is.</p></div></div>
+        <div class="faq-item"><button class="faq-question">Zijn de robots geschikt voor mijn ruimte? <i class="lucide-plus"></i></button><div class="faq-answer"><p>Wij doen een gratis scan van uw ruimte om te bepalen welke robot het beste past. Geschikt voor vloeren vanaf 500m2.</p></div></div>
+        <div class="faq-item"><button class="faq-question">Wat kost het dashboard? <i class="lucide-plus"></i></button><div class="faq-answer"><p>Het dashboard is inbegrepen bij onze dienstverlening. Geen extra kosten voor software of licenties.</p></div></div>
+        <div class="faq-item"><button class="faq-question">Hoe duurzaam zijn jullie methoden? <i class="lucide-plus"></i></button><div class="faq-answer"><p>Door alleen te reinigen waar nodig besparen we tot 40% op water en middelen. Al onze producten zijn biologisch afbreekbaar.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><a href="#" class="nav-logo">Clean<span>Tech</span></a><p>Hightech schoonmaakbedrijf in Utrecht. Data-driven, duurzaam en meetbaar schoon.</p></div>
+        <div><h4>Diensten</h4><ul><li><a href="#services">Kantoor</a></li><li><a href="#services">Industrieel</a></li><li><a href="#services">Glazenwassen</a></li><li><a href="#services">Robotreiniging</a></li></ul></div>
+        <div><h4>Navigatie</h4><ul><li><a href="#about">Over Ons</a></li><li><a href="#ba">Voor & Na</a></li><li><a href="#reviews">Reviews</a></li><li><a href="blog.html">Blog</a></li></ul></div>
+        <div><h4>Contact</h4><ul><li><a href="tel:+31300000000">030-0000000</a></li><li><a href="mailto:info@cleantech.nl">info@cleantech.nl</a></li><li><a href="#">Utrecht</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 CleanTech Utrecht. Alle rechten voorbehouden.</p>
+        <div class="footer-social"><a href="#" aria-label="GitHub"><i class="lucide-github"></i></a><a href="#" aria-label="Instagram"><i class="lucide-instagram"></i></a><a href="#" aria-label="LinkedIn"><i class="lucide-linkedin"></i></a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script>
+    window.addEventListener('scroll', () => { document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50); });
+    document.getElementById('hamburger').addEventListener('click', () => { document.getElementById('nav-links').classList.toggle('active'); });
+    document.querySelectorAll('.faq-question').forEach(btn => { btn.addEventListener('click', () => { btn.parentElement.classList.toggle('active'); }); });
+
+    const slider = document.getElementById('ba-slider');
+    if (slider) {
+      const afterDiv = slider.querySelector('.ba-after'), handle = slider.querySelector('.ba-handle');
+      let dragging = false;
+      function updateSlider(x) { const r = slider.getBoundingClientRect(); let p = ((x-r.left)/r.width)*100; p = Math.max(2,Math.min(98,p)); afterDiv.style.width=p+'%'; handle.style.left=p+'%'; }
+      slider.addEventListener('mousedown', e => { dragging=true; updateSlider(e.clientX); });
+      window.addEventListener('mousemove', e => { if(dragging) updateSlider(e.clientX); });
+      window.addEventListener('mouseup', () => { dragging=false; });
+      slider.addEventListener('touchstart', e => { dragging=true; updateSlider(e.touches[0].clientX); });
+      window.addEventListener('touchmove', e => { if(dragging) updateSlider(e.touches[0].clientX); });
+      window.addEventListener('touchend', () => { dragging=false; });
+    }
+
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.utils.toArray('.service-card, .project-card, .testimonial-card').forEach((el, i) => { gsap.from(el, { scrollTrigger: { trigger: el, start: 'top 85%' }, y: 60, opacity: 0, duration: .8, delay: i%3*.15, ease: 'power3.out' }); });
+    gsap.from('.hero-content', { y: 80, opacity: 0, duration: 1.2, ease: 'power3.out' });
+    gsap.from('.hero-stats .stat-item', { y: 40, opacity: 0, duration: .8, stagger: .15, delay: .6, ease: 'power3.out' });
+    gsap.from('.about-image', { scrollTrigger: { trigger: '.about-grid', start: 'top 75%' }, x: -80, opacity: 0, duration: 1, ease: 'power3.out' });
+    gsap.from('.about-text', { scrollTrigger: { trigger: '.about-grid', start: 'top 75%' }, x: 80, opacity: 0, duration: 1, ease: 'power3.out' });
+    gsap.from('.ba-slider', { scrollTrigger: { trigger: '.ba-section', start: 'top 75%' }, scale: .9, opacity: 0, duration: 1, ease: 'power3.out' });
+
+    const track = document.getElementById('carousel'); let pos = 0;
+    function animateCarousel() { pos -= 0.5; if (Math.abs(pos) >= track.scrollWidth / 2) pos = 0; track.style.transform = `translateX(${pos}px)`; requestAnimationFrame(animateCarousel); }
+    animateCarousel();
+  </script>
+</body>
+</html>
